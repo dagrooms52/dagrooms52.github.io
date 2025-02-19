@@ -1,0 +1,149 @@
+/* https://flatuicolors.com/palette/us */
+/* #81ecec, #00cec9 */
+
+body {
+    margin: 0;
+    background-color: #2d3436;
+    color: #dff9fb;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a:link, a:active, a:focus {
+    color: #00cec9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #81ecec;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a29bfe;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 0;
+    max-width: 800px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 0px;
+    background-color: #2d3436;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); */
+}
+
+.content nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    background: #2d3436;
+}
+
+.content nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.content nav a:first-child {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.content nav a:hover {
+    color: #00cec9;
+}
+
+
+.content h1, .content h2 {
+    color: #00cec9;
+}
+
+.content header {
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    gap: 10px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content header .left-section {
+    flex: 1;
+}
+
+.content header .right-section {
+    flex: 2;
+    text-align: left;
+}
+
+.content section {
+    margin: 40px 20px 0px 20px;
+}
+
+.content footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #2d3436;
+}
+
+.content footer a {
+    color: #00cec9;
+    text-decoration: none;
+}
+
+.content footer a:hover {
+    text-decoration: underline;
+}
+
+.profile-pic {
+    width: 120px; /* Set the width of the image */
+    height: 120px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border: 3px solid #fff; /* Optional: Add a border around the image */
+}
+
+.project-icon {
+    width: 40px; /* Set the width of the image */
+    height: 40px; /* Set the height of the image */
+    padding: 4px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border: 3px solid #fff; /* Optional: Add a border around the image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-li {
+    list-style: none;
+}
+
+.project-header {
+    display: flex; 
+    align-items: center;
+}
+
+.project-title {
+    display: inline;
+    padding-left: 20px;
+}
+
+.project-header > a:link {
+    color: #00cec9;
+    text-decoration: none;
+}
+
+.project-header > a:visited {
+    color: #00cec9;
+    text-decoration: none;
+}
